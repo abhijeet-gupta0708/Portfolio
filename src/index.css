@@ -1,15 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Playfair+Display&family=Josefin+Sans&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
+
 :root
 {
-  --bg:#F0F4FF;
+  --bg:#d6d9e2;
   --accent:#FCA61F;
   --accent2:#6F34FE;
   --text:#3F396D;
+  --sans: 'DM Sans', sans-serif;
+  --serif: 'Playfair Display', serif;
+  --nav-bg: #f4f7fe;
+  --white: #ffffff;
+  --muted: #6c6a8a;
+  /*  copied colors from the site*/
+  --primary-color: #fca61f;
+  --secondary-color: #6f34fe;
+  --third-color: #56cbbd;
+  --forth-color: #3f396d;
+  --white-color: #fff;
+  --black-color: #000;
+  --Winky-font: "Winky Sans", sans-serif;
+  --Josefin-font: "Josefin Sans", sans-serif;
+  --transition-regular: .3s;
+  --transition-slow: .6s;
 }
+
 * {
   margin: 0;
   padding: 0;
