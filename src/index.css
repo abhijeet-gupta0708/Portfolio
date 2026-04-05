@@ -9,7 +9,7 @@
 
 :root
 {
-  --bg:#d6d9e2;
+  --bg:#e4e6ed;
   --accent:#FCA61F;
   --accent2:#6F34FE;
   --text:#3F396D;
@@ -22,7 +22,7 @@
   --primary-color: #fca61f;
   --secondary-color: #6f34fe;
   --third-color: #56cbbd;
-  --forth-color: #3f396d;
+  --fourth-color: #3f396d;
   --white-color: #fff;
   --black-color: #000;
   --Winky-font: "Winky Sans", sans-serif;
@@ -39,6 +39,29 @@
 }
 
 body {
-  background: var(--bg);
+ /* background: var(--bg);*/
   color: var(--text);
+}
+
+
+/* To add Animation in Picture */
+
+
+@keyframes float-updown {
+  0%   { transform: translateY(0px); }
+  50%  { transform: translateY(-15px); }
+  100% { transform: translateY(0px); }
+}
+
+@keyframes float-leftright {
+  0%   { transform: translateX(0px); }
+  50%  { transform: translateX(15px); }
+  100% { transform: translateX(0px); }
+}
+.float-lr {
+  animation: float-leftright 3s ease-in-out infinite;
+}
+
+.float-ud {
+  animation: float-updown 3s ease-in-out infinite;
 }

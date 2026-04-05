@@ -1,47 +1,39 @@
-import { motion } from "framer-motion";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { useState,useEffect } from "react";
+function Hero()
+{
+    return (
+        <>
+        {/* The BIG HERO DIV */}
+        <div className="Full_size_hero bg-[var(--bg)] flex justify-center h-min px-20 py-16">
+            {/*LEFT SIDE ELEMENSTS */}
+            <div className="left_side_hero w-1/2 flex flex-col gap-6 justify-center" >
+                <p className="flex flex-col text-3xl text-[var(--text)] gap-4">Hello,  I Am</p>
+                <h1 className=" text-5xl text-[var(--secondary-color)] font-bold">Abhijeet Gupta</h1>
+                <p> Dedicated to continuous learning and building real-world projects to create efficient and impactful solutions.</p>
+                <div className="flex flex-row gap-4 ">
+                    <a className="bg-[var(--primary-color)]  w-fit text-3xl rounded-xl p-3">Hire me</a>
+                    <a href="#projects"className="underline  mt-4 text-2xl text-[var(--fourth-color)]">See My Work</a>
+                </div>
+                
+            </div>
 
-function Hero() {
-  return (
-    <section style={styles.hero}>
-      <motion.h1 
-        initial={{ opacity: 0, y: -50 }} 
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1 }}
-      >
-        Hi, I'm Abhijeet 👋
-      </motion.h1>
 
-      <motion.p 
-        initial={{ opacity: 0 }} 
-        animate={{ opacity: 1 }}
-        transition={{ delay: 0.5 }}
-      >
-        Frontend Developer | React Learner 🚀
-      </motion.p>
+            {/*RIGHT SIDE ELEMENSTS */}
 
-      <div style={styles.icons}>
-        <FaGithub size={30} />
-        <FaLinkedin size={30} />
-      </div>
-    </section>
-  );
+            <div className="right_side_hero w-1/2 relative flex justify-center "style={{backgroundColor: 'var(--bg)'}}>
+                <div className="profile flex  behind " >
+                    <img className="float-lr bg-[var(--secondary-color)]  "src="src\Images\Gemini_Generated_Image_h6anynh6anynh6an.png"alt="Profile_Image"></img>
+                    <img className="float-ud  absolute w-8 md:w-12 lg:w-16 top-0 right-0 "src="src\Images\download (1).png"alt="Random Struture 1"></img>
+                    <img className="float-ud  absolute w-8 md:w-12 lg:w-16 left-0 bottom-0 "src="src\Images\download.png"alt="Random Struture 2"></img>
+                </div>
+
+            </div>
+
+
+
+        </div>
+        </>
+    );
 }
 
-const styles = {
-  hero: {
-    height: "100vh",
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "center",
-    alignItems: "center",
-    gap: "20px",
-    textAlign: "center"
-  },
-  icons: {
-    display: "flex",
-    gap: "20px"
-  }
-};
-
-export default Hero;
+export default Hero

@@ -2,7 +2,7 @@ function Navbar()
 {
     return (
         <>
-        <div className="full_navbar h-20 w-full flex items-center justify-between px-6"style={{backgroundColor:'#f4f7fe'}}>
+        <div className="full_navbar  h-20 w-full flex items-center justify-between px-6"style={{backgroundColor:'#f4f7fe'}}>
 
             {/* NAME LOGO */}
             <div className="name_navbar ml-12  text-3xl font-bold  relative flex flex-wrap  ">
