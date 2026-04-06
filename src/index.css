@@ -34,14 +34,14 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
+  
 }
 
 body {
- /* background: var(--bg);*/
+  font-family: var(--sans);
   color: var(--text);
 }
+
 
 
 /* To add Animation in Picture */
@@ -64,4 +64,30 @@ body {
 
 .float-ud {
   animation: float-updown 3s ease-in-out infinite;
+}
+/* CURSOR OF TYPE WRITTER EFFECT MODIFICATION */
+.typewriter span::after {
+  content: "|";
+  margin-left: 5px;
+  animation: blink 1s infinite;
+  color: var(--primary-color);
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+
+/* ADDING HOVER EFFECT TO ALL BUTTONS */  
+.a
+{
+  hover:shadow-xl ;
+  hover:-translate-y-2 transition duration-300;
+}
+
+/* CARD ANIMATION SERVICE>JSX */
+.card
+{
+  transition: transform 0.3s ease;
+  transform-style: preserve-3d;
 }

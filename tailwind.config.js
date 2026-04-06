@@ -17,7 +17,12 @@ export default {
         'float-ud': 'float-updown 3s ease-in-out infinite',
         'float-lr': 'float-leftright 3s ease-in-out infinite',
       },
+      fontFamily: {
+      sans: ['DM Sans', 'sans-serif'],
+      serif: ['Playfair Display', 'serif'],
+      josefin: ['Josefin Sans', 'sans-serif'],
     },
   },
   plugins: [],
+}
 }
