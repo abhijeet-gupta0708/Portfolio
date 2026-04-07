@@ -25,7 +25,14 @@ function Services() {
   ];
 
   return (
-    <section className="bg-[var(--bg)] px-4 sm:px-6 md:px-12 lg:px-20 py-20">
+    <section className=" relative bg-[var(--bg)] px-4 sm:px-6 md:px-12 lg:px-20 py-20 overflow-hidden">
+
+
+      {/* LEFT SIDE HALF CIRCLE */}
+      <img src="src\Images\half_circle.png"alt="half circle"className="absolute  lg:left-[-30px] md:block hidden animate-[float-leftright_1.3s_ease-in-out_infinite]"></img>
+
+      {/* Small Cicle Adding above it */}
+      <img src="src\Images\download.png" alt="Small Circle" className="absolute lg:top-[90px] lg:right-[100px] animate-[float-updown_1.3s_ease-in-out_infinite]"></img>
       
       {/* Heading */}
       <div className="text-center mb-16">

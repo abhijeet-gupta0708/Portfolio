@@ -13,8 +13,8 @@ function Hero()
                     <Typewritter />
                 <p> Dedicated to continuous learning and building real-world projects to create efficient and impactful solutions.</p>
                 <div className="flex flex-row gap-4 ">
-                    <a className="bg-[var(--primary-color)]  w-fit text-3xl rounded-xl p-3">Hire me</a>
-                    <a href="#projects"className="underline  mt-4 text-2xl text-[var(--fourth-color)]">See My Work</a>
+                    <a className=" button_click bg-[var(--primary-color)]  w-fit text-3xl rounded-xl p-3 hover:translate-x-2 hover:scale-105 hover:translate-y-2">Hire me</a>
+                    <a href="#projects"className="underline  mt-4 text-2xl text-[var(--fourth-color)] hover:translate-x-2 hover:scale-105 hover:translate-y-2">See My Work</a>
                 </div>
                 
             </div>
@@ -22,7 +22,7 @@ function Hero()
 
             {/*RIGHT SIDE ELEMENSTS */}
 
-            <div className="right_side_hero  hidden md:block w-1/2 relative flex justify-center "style={{backgroundColor: 'var(--bg)'}}>
+            <div className="right_side_hero  hidden md:block w-1/2 relative  justify-center "style={{backgroundColor: 'var(--bg)'}}>
                 <div className="profile flex  behind " >
                     <img className="float-lr bg-[var(--secondary-color)]  "src="src\Images\Gemini_Generated_Image_h6anynh6anynh6an.png"alt="Profile_Image"></img>
                     <img className="float-ud  absolute w-8 md:w-12 lg:w-16 top-0 right-0 "src="src\Images\download (1).png"alt="Random Struture 1"></img>
