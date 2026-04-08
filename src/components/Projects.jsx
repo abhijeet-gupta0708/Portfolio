@@ -59,13 +59,13 @@ function Project()
 
           {/* Adding Half Circle  */}
           <div className="halfcircle absolute  hidden md:block  -left-10 top-72 animate-[float-leftright_1.5s_ease-in-out_infinite]">
-                  <img src="public\half_circle.png" alt="Half circle" />
+                  <img src="/half_circle.png" alt="Half circle" />
           </div>
 
           {/* Adding Smaller Circle  */}
 
           <div className="smaller_circle absolute hidden md:block right-10  animate-[float-leftright_1.5s_ease-in-out_infinite]">
-            <img src="public\download.png" alt="Small Circle" />
+            <img src="/download.png" alt="Small Circle" />
           </div>
 
         {/* LAYOUT THAT SHOWS MY PROJECTS IN TABULAR FORMAT */}

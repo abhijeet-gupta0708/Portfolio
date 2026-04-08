@@ -29,10 +29,10 @@ function Services() {
 
 
       {/* LEFT SIDE HALF CIRCLE */}
-      <img src="public\half_circle.png"alt="half circle"className="absolute top-[280px] lg:left-[-30px] md:block hidden animate-[float-leftright_1.3s_ease-in-out_infinite]"></img>
+      <img src="/half_circle.png"alt="half circle"className="absolute top-[280px] lg:left-[-30px] md:block hidden animate-[float-leftright_1.3s_ease-in-out_infinite]"></img>
 
       {/* Small Cicle Adding above it */}
-      <img src="public\download.png" alt="Small Circle" className="absolute lg:top-[90px] lg:right-[100px] animate-[float-updown_1.3s_ease-in-out_infinite]"></img>
+      <img src="/download.png" alt="Small Circle" className="absolute lg:top-[90px] lg:right-[100px] animate-[float-updown_1.3s_ease-in-out_infinite]"></img>
       
       {/* Heading */}
       <div className="text-center mb-16">
