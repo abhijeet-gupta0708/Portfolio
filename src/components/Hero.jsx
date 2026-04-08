@@ -24,7 +24,7 @@ function Hero()
 
             <div className="right_side_hero  hidden md:block w-1/2 relative  justify-center "style={{backgroundColor: 'var(--bg)'}}>
                 <div className="profile flex  behind " >
-                    <img className="float-lr bg-[var(--secondary-color)]  "src="public\Gemini_Generated_Image_h6anynh6anynh6an.png"alt="Profile_Image"></img>
+                    <img className="float-lr bg-[var(--bg)]  "src="public\Abhi_pic_3circles_no_bg (1).png"alt="Profile_Image"></img>
                     <img className="float-ud  absolute w-8 md:w-12 lg:w-16 top-0 right-0 "src="public\download (1).png"alt="Random Struture 1"></img>
                     <img className="float-ud  absolute w-8 md:w-12 lg:w-16 left-0 bottom-0 "src="public\download.png"alt="Random Struture 2"></img>
                 </div>

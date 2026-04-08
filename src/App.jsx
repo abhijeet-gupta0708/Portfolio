@@ -13,13 +13,28 @@ import Services from "./components/Services";
 import Profile from "./components/Profile";
 
 function App() {
-      useEffect(() => {
-          AOS.init({
-          duration: 1000, // animation speed
-          once: true,     // animate only once
-          });
-  
-        }, []);
+  useEffect(() => {
+  const elements = document.querySelectorAll(".fade-up, .fade-left");
+
+  if (elements.length === 0) return; // safety
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("show");
+        } else {
+          entry.target.classList.remove("show");
+        }
+      });
+    },
+    { threshold: 0.5}
+  );
+
+  elements.forEach((el) => observer.observe(el));
+
+  return () => observer.disconnect();
+}, []);
 
   return (
     <>

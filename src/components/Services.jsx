@@ -25,7 +25,7 @@ function Services() {
   ];
 
   return (
-    <section id="services" className=" relative bg-[var(--bg)] px-4 sm:px-6 md:px-12 lg:px-20 py-20 overflow-hidden mt-10 ">
+    <section id="services" className="relative bg-[var(--bg)] px-4 sm:px-6 md:px-12 lg:px-20 py-20 overflow-hidden mt-10 ">
 
 
       {/* LEFT SIDE HALF CIRCLE */}
@@ -48,14 +48,6 @@ function Services() {
       <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
         {services.map((service, index) => (
           
-          //  OUTER DIV → AOS animation
-          <div
-            key={index}
-            data-aos={index % 2 === 0 ? "fade-right" : "fade-left"}
-            data-aos-delay={index * 100}
-          >
-            
-            {/* INNER DIV → hover + tilt */}
             <div className="bg-white rounded-2xl p-5 sm:p-6 flex flex-col sm:flex-row gap-4 sm:gap-6 items-center sm:items-start text-center sm:text-left shadow-md transition duration-300 transform hover:-translate-y-2 hover:scale-105 hover:rotate-1">
               
               {/* Icon */}
@@ -81,7 +73,6 @@ function Services() {
               </div>
 
             </div>
-          </div>
 
         ))}
       </div>

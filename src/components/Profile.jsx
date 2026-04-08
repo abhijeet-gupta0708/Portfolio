@@ -1,7 +1,7 @@
 function Profile() {
   return (
     <>
-         <div id="profile" className="all_div bg-[var(--bg)] mt-10 ">
+         <div id="profile" className="fade-left all_div bg-[var(--bg)] mt-10 ">
         <div className="My_Profile_Tag text-center font-bold text-2xl text-[var(--primary-color)]">
             <h2>My Profiles</h2>
         </div>

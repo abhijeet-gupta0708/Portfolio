@@ -11,7 +11,7 @@ html {
 
 :root
 {
-  --bg:#e4e6ed;
+  --bg:#aeb1bd;
   --accent:#FCA61F;
   --accent2:#6F34FE;
   --text:#3F396D;
@@ -61,7 +61,7 @@ body {
   100% { transform: translateX(0px); }
 }
 .float-lr {
-  animation: float-leftright 3s ease-in-out infinite;
+  animation: float-leftright 3s cubic-bezier(0.4, 0, 0.2, 1) infinite;
 }
 
 .float-ud {
@@ -92,4 +92,27 @@ body {
 {
   transition: transform 0.3s ease;
   transform-style: preserve-3d;
+}
+
+
+.fade-left {
+  opacity: 0;
+  transition: all 1s ease;
+}
+.fade-up {
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+.fade-up {
+  transform: translateY(60px);
+}
+
+.fade-left {
+  transform: translateX(-60px);
+}
+
+.show {
+  opacity: 1;
+  transform: translate(0, 0);
 }

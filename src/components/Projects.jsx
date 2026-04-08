@@ -41,7 +41,8 @@ function Project()
     ];
  return (
     <>
-    <section id="projects" className="bg-[var(--bg)] relative  px-4 sm:px-6 md:px-12 lg:px-20 py-20 overflow-hidden mt-10 ">
+    
+    <section id="projects" className=" fade-left bg-[var(--bg)] relative  px-4 sm:px-6 md:px-12 lg:px-20 py-20 overflow-hidden mt-10 ">
         <div className="Headint_tag text-2xl font-extrabold p-4  rounded-lg text-center mb-10 md:mb-12 text-[var(--primary-color)]">
             <p className="underline">My Work</p>
         </div>
@@ -71,7 +72,7 @@ function Project()
         <div className="grid grid-cols-1 mt-10 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
 
         {/* LEFT SIDE */}
-        <div className="flex flex-col relative">
+        <div className=" flex flex-col relative">
 
           
 
