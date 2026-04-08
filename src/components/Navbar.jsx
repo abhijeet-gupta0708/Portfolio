@@ -15,9 +15,9 @@ function Navbar()
             {/* This section includes The navbar elements such as Skills , projects , etc*/}
             <div className="   element_navbar hidden md:flex font-[var(--Josefin-font)] text-3xl gap-10 px-4">
                 <a className="hover:translate-x-1 hover:scale-125"style={{color:'#fca61f'}}href="">Home</a>
-                <a className="hover:translate-x-1 hover:scale-125"href="">Skills  </a>
-                <a className="hover:translate-x-1 hover:scale-125"href="">Projects</a>
-                <a className="hover:translate-x-1 hover:scale-125"href="">Contact</a>
+                <a className="hover:translate-x-1 hover:scale-125"href="#services">Skills  </a>
+                <a className="hover:translate-x-1 hover:scale-125"href="#projects">Projects</a>
+                <a className="hover:translate-x-1 hover:scale-125"href="#profile">Profile</a>
             </div>
 
 

@@ -10,6 +10,7 @@ import Project from "./components/Projects";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 import Services from "./components/Services";
+import Profile from "./components/Profile";
 
 function App() {
       useEffect(() => {
@@ -27,7 +28,9 @@ function App() {
     <Services />
     <Project />
     <Projects2 />
+    <Profile />
     <Below_Hero />
+    <About />
     <h1 className="text-black">Hello People</h1>
       
     </>

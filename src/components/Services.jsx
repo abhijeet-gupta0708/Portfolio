@@ -25,18 +25,18 @@ function Services() {
   ];
 
   return (
-    <section className=" relative bg-[var(--bg)] px-4 sm:px-6 md:px-12 lg:px-20 py-20 overflow-hidden">
+    <section id="services" className=" relative bg-[var(--bg)] px-4 sm:px-6 md:px-12 lg:px-20 py-20 overflow-hidden mt-10 ">
 
 
       {/* LEFT SIDE HALF CIRCLE */}
-      <img src="src\Images\half_circle.png"alt="half circle"className="absolute  lg:left-[-30px] md:block hidden animate-[float-leftright_1.3s_ease-in-out_infinite]"></img>
+      <img src="public\half_circle.png"alt="half circle"className="absolute top-[280px] lg:left-[-30px] md:block hidden animate-[float-leftright_1.3s_ease-in-out_infinite]"></img>
 
       {/* Small Cicle Adding above it */}
-      <img src="src\Images\download.png" alt="Small Circle" className="absolute lg:top-[90px] lg:right-[100px] animate-[float-updown_1.3s_ease-in-out_infinite]"></img>
+      <img src="public\download.png" alt="Small Circle" className="absolute lg:top-[90px] lg:right-[100px] animate-[float-updown_1.3s_ease-in-out_infinite]"></img>
       
       {/* Heading */}
       <div className="text-center mb-16">
-        <p className="text-[var(--primary-color)] font-semibold">
+        <p className=" underline  text-2xl font-extrabold mb-10 md:mb-12  rounded-lg text-center text-[var(--primary-color)] ">
           My Expertise
         </p>
         <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[var(--text)] mt-2">

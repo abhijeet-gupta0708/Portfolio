@@ -9,31 +9,31 @@ function Project()
         {
             title:"Portfolio Website",
             desc:"I have design a Fully Functioning and Responsive Website that describe my work and my commitment towards Tech Field.",
-            image:"Nothing",
+            image:"/portfolio_abhijeet.png",
             tech: ["React","Tailwind" ,"Html"],
         },
         {
             title:"Tic-Tac-Toe Game",
             desc:"Tic-Tac-Toe is an addictive game. ",
-            image:"Nothing",
+            image:"/Tic_Tac_Toe.png",
             tech: ["JavaScript","Css" ,"Html"],
         },
         {
             title:"Weather App",
             desc:"A Plateform that give you info about the Current weather of the city across the World.",
-            image:"Nothing",
+            image:"/Rock_Paper_Sessior.png",
             tech: ["Python","Pytrxx"],
         },
         {
             title:"Rock Paper Sessior",
             desc:"Rock Paper Sessior is an addictive game that you can play against the Computer . ",
-            image:"Nothing",
+            image:"/Rock_Paper_Sessior.png",
             tech: ["JavaScript","Tailwind" ,"Html"],
         },
         {
             title:"Guess The Number ",
             desc:"Guess The Number is an addictive game that you can play against the Computer . ",
-            image:"Nothing",
+            image:"/Rock_Paper_Sessior.png",
             tech: ["JavaScript","Tailwind" ,"Html"],
         },
 
@@ -41,9 +41,9 @@ function Project()
     ];
  return (
     <>
-    <section className="bg-[var(--bg)]">
-        <div className="Headint_tag text-2xl font-bold text-center mb-10 md:mb-12 text-[var(--primary-color)]">
-            <p>My Work</p>
+    <section id="projects" className="bg-[var(--bg)] relative  px-4 sm:px-6 md:px-12 lg:px-20 py-20 overflow-hidden mt-10 ">
+        <div className="Headint_tag text-2xl font-extrabold p-4  rounded-lg text-center mb-10 md:mb-12 text-[var(--primary-color)]">
+            <p className="underline">My Work</p>
         </div>
         <div className="Main_Head text-4xl text-center  font-[var(--Josefin-font)]">
             <h2>Projects That Reflect My Skills</h2>
@@ -53,11 +53,27 @@ function Project()
             <p>and sharpen my development skills.</p>
         </div>
 
+
+
+
+          {/* Adding Half Circle  */}
+          <div className="halfcircle absolute  hidden md:block  -left-10 top-72 animate-[float-leftright_1.5s_ease-in-out_infinite]">
+                  <img src="public\half_circle.png" alt="Half circle" />
+          </div>
+
+          {/* Adding Smaller Circle  */}
+
+          <div className="smaller_circle absolute hidden md:block right-10  animate-[float-leftright_1.5s_ease-in-out_infinite]">
+            <img src="public\download.png" alt="Small Circle" />
+          </div>
+
         {/* LAYOUT THAT SHOWS MY PROJECTS IN TABULAR FORMAT */}
         <div className="grid grid-cols-1 mt-10 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
 
         {/* LEFT SIDE */}
-        <div className="flex flex-col">
+        <div className="flex flex-col relative">
+
+          
 
           {projects.map((project, index) => (
             <div key={index} className="border-b">
@@ -71,6 +87,7 @@ function Project()
                     : "bg-transparent"
                 }`}
               >
+                
                 <div className="flex gap-4 items-center">
 
                   <span className="text-lg font-semibold text-gray-400">
