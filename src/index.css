@@ -95,24 +95,28 @@ body {
 }
 
 
-.fade-left {
+/* Base (hidden ONLY when animate is present) */
+.animate.fade-up,
+.animate.fade-left,
+.animate.fade-right {
   opacity: 0;
-  transition: all 1s ease;
-}
-.fade-up {
-  opacity: 0;
-  transition: all 1s ease;
+  transition: all 0.8s ease;
 }
 
-.fade-up {
+/* Directions */
+.animate.fade-up {
   transform: translateY(60px);
 }
 
-.fade-left {
+.animate.fade-left {
   transform: translateX(-60px);
 }
+.animate.fade-right {
+  transform: translateX(60px);
+}
 
-.show {
+/* When visible */
+.animate.show {
   opacity: 1;
   transform: translate(0, 0);
 }

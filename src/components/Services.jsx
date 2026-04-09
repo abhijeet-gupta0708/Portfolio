@@ -25,7 +25,7 @@ function Services() {
   ];
 
   return (
-    <section id="services" className="relative bg-[var(--bg)] px-4 sm:px-6 md:px-12 lg:px-20 py-20 overflow-hidden mt-10 ">
+    <section id="services" className="animate fade-right relative bg-[var(--bg)] px-4 sm:px-6 md:px-12 lg:px-20 py-20 overflow-hidden mt-10 ">
 
 
       {/* LEFT SIDE HALF CIRCLE */}

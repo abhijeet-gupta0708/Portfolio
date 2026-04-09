@@ -42,7 +42,7 @@ function Project()
  return (
     <>
     
-    <section id="projects" className=" fade-left bg-[var(--bg)] relative  px-4 sm:px-6 md:px-12 lg:px-20 py-20 overflow-hidden mt-10 ">
+    <section id="projects" className=" animate fade-left   bg-[var(--bg)] relative  px-4 sm:px-6 md:px-12 lg:px-20 py-20 overflow-hidden mt-10 ">
         <div className="Headint_tag text-2xl font-extrabold p-4  rounded-lg text-center mb-10 md:mb-12 text-[var(--primary-color)]">
             <p className="underline">My Work</p>
         </div>

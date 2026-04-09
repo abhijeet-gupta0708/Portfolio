@@ -13,10 +13,10 @@ import Services from "./components/Services";
 import Profile from "./components/Profile";
 
 function App() {
-  useEffect(() => {
-  const elements = document.querySelectorAll(".fade-up, .fade-left");
+  
 
-  if (elements.length === 0) return; // safety
+  useEffect(() => {
+  const elements = document.querySelectorAll(".animate");
 
   const observer = new IntersectionObserver(
     (entries) => {
@@ -28,7 +28,7 @@ function App() {
         }
       });
     },
-    { threshold: 0.5}
+    { threshold: 0.3 }
   );
 
   elements.forEach((el) => observer.observe(el));
