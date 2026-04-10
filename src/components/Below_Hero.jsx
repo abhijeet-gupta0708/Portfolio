@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 function Below_Hero() {
   return (
-    <section style={styles.hero}>
+    <section style={styles.hero} className="overflow-hidden">
       <motion.h1 
         initial={{ opacity: 0, y: -50 }} 
         animate={{ opacity: 1, y: 0 }}
@@ -17,7 +17,7 @@ function Below_Hero() {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.5 }}
       >
-        Frontend Developer | React Learner 🚀
+        FullStack Developer  🚀
       </motion.p>
 
       <div style={styles.icons}>

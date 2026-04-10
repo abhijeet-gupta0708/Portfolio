@@ -28,7 +28,7 @@ function App() {
         }
       });
     },
-    { threshold: 0.3 }
+    { threshold: 0.25 }
   );
 
   elements.forEach((el) => observer.observe(el));
@@ -44,6 +44,7 @@ function App() {
     <Project />
     <Projects2 />
     <Profile />
+    <Contact />
     <Below_Hero />
     <About />
     <h1 className="text-black">Hello People</h1>

@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Josefin+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Playfair+Display&family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&family=Playfair+Display:wght@400;700&family=Josefin+Sans:wght@400;600&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -24,7 +22,7 @@ html {
   --primary-color: #fca61f;
   --secondary-color: #6f34fe;
   --third-color: #56cbbd;
-  --fourth-color: #3f396d;
+  --fourth-color: #0e51bd;
   --white-color: #fff;
   --black-color: #000;
   --Winky-font: "Winky Sans", sans-serif;
@@ -40,12 +38,17 @@ html {
 }
 
 body {
-  font-family: var(--sans);
   color: var(--text);
 }
 
 
+/* Navbar section */
 
+.name_navbar
+{
+  font-weight: 900;
+  font-size: 2rem;
+}
 /* To add Animation in Picture */
 
 
@@ -100,7 +103,7 @@ body {
 .animate.fade-left,
 .animate.fade-right {
   opacity: 0;
-  transition: all 0.8s ease;
+  transition: all 0.5s ease;
 }
 
 /* Directions */
