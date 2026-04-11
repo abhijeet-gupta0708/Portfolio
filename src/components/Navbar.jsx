@@ -26,7 +26,7 @@ function Navbar()
 
             {/* Contact Button in Big Formate */}
             <div className="contact_button_navbar   hidden md:block  ">
-                <button className="bg-[#fca61f] px-4 py-5   rounded-lg  hover:translate-x-1 hover:scale-125 ">CONTACT ME</button>
+                <a href="#contact" className="bg-[#fca61f] px-4 py-5   rounded-lg  hover:translate-x-1 hover:scale-125 ">CONTACT ME</a>
             </div>
         
 

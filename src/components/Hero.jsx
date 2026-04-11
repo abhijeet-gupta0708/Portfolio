@@ -13,7 +13,7 @@ function Hero()
                     <Typewritter />
                 <p> Dedicated to continuous learning and building real-world projects to create efficient and impactful solutions.</p>
                 <div className="flex flex-row gap-4 ">
-                    <a className=" button_click bg-[var(--primary-color)]  w-fit text-3xl rounded-3xl p-3 hover:translate-x-2 hover:scale-105 md:hover:translate-y-2">Hire me</a>
+                    <a href="#contact"className=" button_click bg-[var(--primary-color)]  w-fit text-3xl rounded-3xl p-3 hover:translate-x-2 hover:scale-105 md:hover:translate-y-2">Hire me</a>
                     <a href="#projects"className="underline  mt-4 text-2xl text-[var(--fourth-color)] hover:translate-x-2 hover:scale-105 hover:translate-y-2">See My Work</a>
                 </div>
                 

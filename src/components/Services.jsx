@@ -63,13 +63,6 @@ function Services() {
                 <p className="text-[var(--muted)] mt-2 text-sm sm:text-base">
                   {service.desc}
                 </p>
-
-                <a
-                  href="#"
-                  className="text-[var(--primary-color)] font-semibold mt-3 inline-block"
-                >
-                  Read More
-                </a>
               </div>
 
             </div>

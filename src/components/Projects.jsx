@@ -11,30 +11,41 @@ function Project()
             desc:"I have design a Fully Functioning and Responsive Website that describe my work and my commitment towards Tech Field.",
             image:"/portfolio_abhijeet.png",
             tech: ["React","Tailwind" ,"Html"],
+            live_demo:"https://portfolio-three-olive-1dqn1mh4k6.vercel.app/",
+            git_code:"https://github.com/abhijeet-gupta0708/Portfolio",
+            
         },
         {
             title:"Tic-Tac-Toe Game",
             desc:"Tic-Tac-Toe is an addictive game. ",
             image:"/Tic_Tac_Toe.png",
             tech: ["JavaScript","Css" ,"Html"],
+            live_demo:"https://tic-tac-toe-game-theta-gold-39.vercel.app/",
+            git_code:"https://github.com/abhijeet-gupta0708/Tic-Tac-Toe-Game",
         },
+        {
+             title:"Rock Paper Scssior",
+             desc:"Rock Paper Scssior is an addictive game that you can play against the Computer . ",
+             image:"/Rock_Paper_Sessior.png",
+             tech: ["JavaScript","Tailwind" ,"Html"],
+             live_demo:"https://rock-paper-sessior-phi.vercel.app/",
+             git_code:"https://github.com/abhijeet-gupta0708/ROCK_PAPER_SESSIOR",
+         },
         {
             title:"Weather App",
             desc:"A Plateform that give you info about the Current weather of the city across the World.",
             image:"/Rock_Paper_Sessior.png",
             tech: ["Python","Pytrxx"],
-        },
-        {
-            title:"Rock Paper Sessior",
-            desc:"Rock Paper Sessior is an addictive game that you can play against the Computer . ",
-            image:"/Rock_Paper_Sessior.png",
-            tech: ["JavaScript","Tailwind" ,"Html"],
+            live_demo:"",
+            git_code:"",
         },
         {
             title:"Guess The Number ",
             desc:"Guess The Number is an addictive game that you can play against the Computer . ",
             image:"/Rock_Paper_Sessior.png",
             tech: ["JavaScript","Tailwind" ,"Html"],
+            live_demo:"",
+            git_code:"",
         },
 
 
@@ -42,7 +53,7 @@ function Project()
  return (
     <>
     
-    <section id="projects" className=" animate fade-left   bg-[var(--bg)] relative  px-4 sm:px-6 md:px-12 lg:px-20 py-20  overflow-hidden mt-10 ">
+    <section id="projects" className=" animate fade-left   bg-[var(--bg)] relative md:w-screen  px-4 sm:px-6 md:px-12 lg:px-20 py-20  overflow-hidden mt-10 ">
         <div className="Headint_tag text-2xl font-extrabold p-4  rounded-lg text-center mb-10 md:mb-12 text-[var(--primary-color)]">
             <p className="underline">My Work</p>
         </div>
@@ -144,10 +155,10 @@ function Project()
 
                 <div className="flex flex-col gap-2">
                   <button className="bg-purple-600 text-white py-2 rounded-md">
-                    Live Demo
+                    {project.live_demo}
                   </button>
                   <button className="border py-2 rounded-md">
-                    GitHub
+                    {project.git_code}
                   </button>
                 </div>
               </div>
@@ -185,12 +196,12 @@ function Project()
           </p>
 
           <div className="flex gap-4">
-            <button className="bg-purple-600 text-white px-5 py-2 rounded-full">
+            <a href={projects[activeIndex].live_demo} target="_blank" className="bg-purple-600 text-white px-5 py-2 rounded-full">
               Live Demo
-            </button>
-            <button className="border px-5 py-2 rounded-full">
+              </a>
+            <a href={projects[activeIndex].git_code} target="_blank" className="border px-5 py-2 rounded-full">
               GitHub
-            </button>
+            </a>
           </div>
 
         </div>

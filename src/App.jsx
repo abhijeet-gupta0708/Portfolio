@@ -42,12 +42,11 @@ function App() {
     <Hero />
     <Services />
     <Project />
-    <Projects2 />
     <Profile />
     <Contact />
     <Below_Hero />
     <About />
-    <h1 className="text-black">Hello People</h1>
+
       
     </>
   )
