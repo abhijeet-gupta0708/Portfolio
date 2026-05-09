@@ -7,6 +7,15 @@ function Project()
     const projects = [
 
         {
+            title:"ECO-ECHO NGO Management Platform",
+            desc:"Developed a web-based NGO management platform to streamline volunteer coordination and reduce manual paperwork.",
+            image:"/ECO-ECHO.png",
+            tech: ["React","Tailwind" ,"Html"],
+            live_demo:"https://eco-echo-project.vercel.app/",
+            git_code:"https://github.com/abhijeet-gupta0708/EcoEcho-Project",
+            
+        },
+        {
             title:"Portfolio Website",
             desc:"I have design a Fully Functioning and Responsive Website that describe my work and my commitment towards Tech Field.",
             image:"/portfolio_abhijeet.png",
