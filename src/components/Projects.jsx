@@ -18,7 +18,7 @@ function Project()
         {
             title:"Portfolio Website",
             desc:"I have design a Fully Functioning and Responsive Website that describe my work and my commitment towards Tech Field.",
-            image:"/portfolio_abhijeet.png",
+            image:"/Portfolio new.png",
             tech: ["React","Tailwind" ,"Html"],
             live_demo:"https://portfolio-three-olive-1dqn1mh4k6.vercel.app/",
             git_code:"https://github.com/abhijeet-gupta0708/Portfolio",
@@ -27,7 +27,7 @@ function Project()
         {
             title:"Tic-Tac-Toe Game",
             desc:"Tic-Tac-Toe is an addictive game. ",
-            image:"/Tic_Tac_Toe.png",
+            image:"/TIC_TAC_TOE_NEW.png",
             tech: ["JavaScript","Css" ,"Html"],
             live_demo:"https://tic-tac-toe-game-theta-gold-39.vercel.app/",
             git_code:"https://github.com/abhijeet-gupta0708/Tic-Tac-Toe-Game",
@@ -35,7 +35,7 @@ function Project()
         {
              title:"Rock Paper Scssior",
              desc:"Rock Paper Scssior is an addictive game that you can play against the Computer . ",
-             image:"/Rock_Paper_Sessior.png",
+             image:"/ROCK_PAPER_SCISSOR.png",
              tech: ["JavaScript","Tailwind" ,"Html"],
              live_demo:"https://rock-paper-sessior-phi.vercel.app/",
              git_code:"https://github.com/abhijeet-gupta0708/ROCK_PAPER_SESSIOR",
@@ -43,7 +43,7 @@ function Project()
         {
             title:"Weather App",
             desc:"A Plateform that give you info about the Current weather of the city across the World.",
-            image:"/Rock_Paper_Sessior.png",
+            image:"/WEATHER_APP.png",
             tech: ["Python","Pytrxx"],
             live_demo:"",
             git_code:"",
@@ -51,7 +51,7 @@ function Project()
         {
             title:"Guess The Number ",
             desc:"Guess The Number is an addictive game that you can play against the Computer . ",
-            image:"/Rock_Paper_Sessior.png",
+            image:"/GUESS_THE_NUMBER.png",
             tech: ["JavaScript","Tailwind" ,"Html"],
             live_demo:"",
             git_code:"",
